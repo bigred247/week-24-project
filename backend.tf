@@ -2,8 +2,8 @@
 
 terraform {
   backend "s3" {
-    bucket = "week-24-project-07162021"
-    key    = "remote.tfstate"
-    region = "us-east-1"
+    bucket = "jenkins-pipeline-bucket-25122021"
+    key    = "jenkins/remote.tfstate"
+    region = "eu-west-2"
   }
 }
